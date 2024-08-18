@@ -65,7 +65,7 @@ export const github = async (args: string[]): Promise<string> => {
 };
 
 export const discord = async (args: string[]): Promise<string> => {
-  return 'Discord: <a style="font-family: monospace;">r2kip</a>';
+  return 'Discord: <a style="font-family: monospace;">${config.social.discord}</a>';
 };
 
 // Search
